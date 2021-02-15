@@ -1,0 +1,26 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.32.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanmosesfernandes/Spark18.git"
+  },
+  "author": "Allan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allanmosesfernandes/Spark18/issues"
+  },
+  "homepage": "https://github.com/allanmosesfernandes/Spark18#readme"
+}

@@ -1,0 +1,73 @@
+// _base.scss
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+$font-stack: Poppins, sans-serif;
+$body-text: 16px;
+$header-text: 600;
+$body-bgcolor: hsl(240, 33%, 99%);
+$emphasis-text: #242f51;
+$blue-button: #2500f9;
+body {
+  font-family: $font-stack !important;
+  background-color: $body-bgcolor;
+  font-size: $body-text;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: $font-stack;
+  font-weight: $header-text !important;
+  color: $emphasis-text;
+}
+
+.bold-text {
+  font-weight: $header-text;
+}
+
+.try-button {
+  font-family: $font-stack;
+  color: #fff;
+  font-weight: $header-text;
+  background-color: $blue-button;
+  border: none;
+  line-height: 1;
+  padding: 1em 2em;  
+  border-radius: 50px;
+  border: 1px solid transparent;
+  &:hover {
+      color: $blue-button;
+      background-color: white;
+      border: 1px solid $blue-button;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+}
+
+.panel-title > a {
+  color: #242f51;
+}
+
+.first-fold-image {
+  width: 60%;
+}
+
+.second-fold-image {
+  width: 70%;
+}
